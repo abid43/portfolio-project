@@ -1,0 +1,329 @@
+html {
+    scroll-behavior: smooth;
+  }
+/*..............
+header start here
+................*/
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+.brand{
+    font-size: 30px;
+    letter-spacing: 15px;
+    font-weight: bold;
+    color:#8e44ad!important ;
+}
+.li-di{
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 2px 3px 2px black;
+
+}
+
+/*..............
+header end here
+................*/
+/*..............
+home start here
+................*/
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.size{
+    height: 100vh;
+    background-color:#1ABC9C ;
+}
+.container-profile{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.profile{
+    width: 200px;
+    margin-top: 200px;
+    border: 1px solid rgba(0, 255, 255, 0.363);
+    background-color: #2c3e5057;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.pic{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.container-info h1{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    padding-bottom: 20px;
+    border-bottom:10px solid white;
+    letter-spacing: 20px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+h1::first-letter{
+    color:orange;
+}
+.container-info h2{
+    text-align: center;
+    color: White;
+    letter-spacing: 2px;
+    text-shadow: 5px 3px 3px black;
+}
+.container-info h3{
+    margin-top: 5px;
+    text-align: center;
+    color:rgb(179, 29, 24);
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-shadow: 10px 5px 5px black;
+    font-size: 30px;
+}
+/*..............
+home end here
+................*/
+
+/*..............
+About start here
+................*/
+
+.container-about h2{
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 5px solid black;
+    padding-bottom: 10px;
+    text-shadow: 5px 3px 5px black;
+    font-size: 40px;
+    margin-bottom: 30px;   
+}
+.container-about h2::first-letter{
+    color:#8e44ad;  
+}
+#de{
+    color: rgb(184, 48, 179);
+}
+.image-div{
+width: 45%;
+background-color: white;
+border-right: 5px dashed orange;
+padding: 20px;
+
+}
+.info-div{
+    width: 45%;
+    background-color:#2c3e50;
+    align-self: flex-start;
+    height: auto;
+    
+    
+    
+
+}
+.h-name{
+    font-size: 26px;
+    font-weight: bold;
+    color:white;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+.descrip{
+    color: white;
+    padding: 10px;
+    text-align: justify;
+    font-size: 18px;
+}
+.cont-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+/*..............
+About end here
+................*/
+/*..............
+Education start here
+................*/
+.edu{
+    height: 100vh;
+    background-color:#1ABC9C ;
+}
+.edu-head{
+    font-size:35px;
+    font-weight: bold;
+   
+    color:white;
+    letter-spacing: 6px;
+
+}
+
+/*..............
+Education end here
+................*/
+/*..............
+Experience start here
+................*/
+.exp-head{
+    font-size:35px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color:#34495e;
+    border-bottom: 5px solid black;
+    
+}
+.exp-head::first-letter{
+    color:#8e44ad ;
+}
+
+/*..............
+Experience end here
+................*/
+
+/*..............
+Certificate start  here
+................*/
+.cer-bg{
+    background-color: #1ABC9C;
+
+}
+.cr-head{
+    font-size:35px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color:white;
+
+}
+
+/*..............
+Certificate end here
+................*/
+
+/*..............
+Demo work start here
+................*/
+.demo-head{
+     margin-top: 20px;
+     text-align: center;
+     font-size: 35px;
+     letter-spacing: 5px;
+     font-weight: bold;
+}
+.demo-head::first-letter{
+    color:#8e44ad; 
+}
+.w{
+    color: rgb(184, 48, 179);
+}
+.card-control{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+    
+    
+}
+.c1,.c2,.c3,.c4,.c5,.c6{
+    margin-bottom: 20px;
+    max-width: 400px;
+    margin-right: 15px;
+    border: 1px solid white;
+    padding: 10px;
+    box-shadow: 4px 5px 3px black!important;
+    background-color: rgba(128, 128, 128, 0.61);
+   
+}
+.c1:hover,.c2:hover,.c3:hover,.c4:hover,.c5:hover,.c6:hover{
+    box-shadow: 8px 10px 3px black!important;
+   
+}
+
+/*..............
+ Demo work end here
+................*/
+/*..............
+ Contact start here
+................*/
+#contact{
+    height:100vh;
+    background-color: #1ABC9C;
+}
+.con-head{
+    font-size:35px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color:white;
+    text-shadow: 5px 6px 8px black;
+}
+.con-head::first-letter{
+    color:#8e44ad; 
+}
+.m{
+    color: rgb(184, 48, 179);
+}
+.btn-sub{
+    letter-spacing: 3px;
+}
+.btn-sub:hover{
+    background-color: pink!important;
+    color:rgb(146, 4, 146)!important;
+}
+
+/*..............
+ Contact  end here
+................*/
+/*..............
+ footer strat  here
+................*/
+.i-control{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 20px;
+
+}
+.icon{
+     width: 60px;
+     height:60px;
+     border-radius:50% ;
+     -webkit-border-radius:50% ;
+     -moz-border-radius:50% ;
+     -ms-border-radius:50% ;
+     -o-border-radius:50% ;
+     border: 1px solid gray;
+     justify-content: center;
+     align-items: center;
+     margin-top: 35px;
+     margin-right: 15px;
+     background-color: white;
+
+}
+.icon a{
+     font-size: 30px;
+     
+}
+.icon:hover{
+    background-color: rgb(184, 48, 179);
+    color:blue;
+}
+
+/*..............
+ footer   end here
+................*/
+
+
